@@ -1,0 +1,6 @@
+{
+	"random_key": "privateKey",
+    "telegram_key": "privateKey",
+    "telegram_chat_id": "privateKey",
+    "unsplash_client_id": "privateKey"
+}

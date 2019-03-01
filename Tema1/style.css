@@ -1,0 +1,208 @@
+/* HOME PAGE */
+
+.home {
+    height: 100%;
+}
+
+.home {
+    background-color: black;
+}
+
+.divHomeTable {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.divHomeTableRow {
+    display: table-row;
+}
+
+.divHomeTableCell {
+    display: table-cell;
+    height: 100%;
+    font-size: 2em;
+    padding-top: 15%;
+    text-align: center;
+    color: black;
+    font-family: 'Bebas Neue';
+}
+.randomness {
+    background-image: linear-gradient(to bottom, black 50%, #846ab4 50%);
+    background-size: 100% 200%;
+    transition: background-position 1s;
+}
+
+.fullOfPhotos {
+    background-image: linear-gradient(to bottom, black 50%, #5ec16e 50%);
+    background-size: 100% 200%;
+    transition: background-position 1s;
+}
+
+.chatWithTelegram {
+    background-image: linear-gradient(to bottom, black 50%, #b43756 50%);
+    background-size: 100% 200%;
+    transition: background-position 1s;
+}
+
+.seeTheResults {
+    background-image: linear-gradient(to bottom, black 50%, rgb(180, 58, 140) 50%);
+    background-size: 100% 200%;
+    transition: background-position 1s;
+}
+
+.divHomeTableCell:hover {
+    background-position: 0 -100%;
+    color: white;
+}
+
+/* END HOME PAGE */
+
+/* RANDOM PAGE */
+
+.random {
+    background-color: #ccbfe6;
+}
+
+.titleBox2 {
+    text-align: center;
+    display: block;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #a483e2;
+    padding: 0.5em;
+    text-decoration: none;
+    border-radius: 1.5em;
+    border: 0.2em #5a3a96 solid; 
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.titleBox2:hover {
+    background-color: #5a3a96;
+}
+
+.number {
+    text-align: center;
+    font-size: 20em;
+    color: #a483e2;
+}
+
+/* END RANDOM PAGE */
+
+/* PHOTOS PAGE */
+
+.photos {
+    background-color: #c5ebcc;
+}
+
+.titleBox {
+    text-align: center;
+    display: block;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #8fe79d;
+    padding: 0.5em;
+    text-decoration: none;
+    border-radius: 1.5em;
+    border: 0.2em #5ec16e solid; 
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.titleBox:hover {
+    background-color: #5ec16e;
+}
+
+.image {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    display: block;
+}
+
+/* END PHOTOS PAGE */
+
+/* TELEGRAM PAGE */
+
+.telegram {
+    background-color: #dfa2b1;
+}
+
+.titleBox3 {
+    text-align: center;
+    display: block;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #b43756;
+    padding: 0.5em;
+    text-decoration: none;
+    border-radius: 1.5em;
+    border: 0.2em #921937 solid; 
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.titleBox3:hover {
+    background-color: #921937;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.leftPhoto {
+    margin: auto;
+    width: 100%;
+}
+
+.rightNumber {
+    font-size: 10em;
+    color: #b43756;
+}
+
+/* END TELEGRAM PAGE */
+
+/* METRICS PAGE */
+
+.metrics {
+    background-color: rgb(229, 190, 216);
+}
+
+.header {
+    background-color: rgb(180, 58, 140);
+}
+
+.content {
+    background-color: rgb(216, 116, 183);
+}
+
+.divTable {
+    display: table;
+    width: 60%;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableCell {
+    display: table-cell;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* END METRICS PAGE */
